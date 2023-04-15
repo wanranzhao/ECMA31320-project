@@ -18,5 +18,6 @@ IV: Language fractionalization/ethnic fractionalization
 Controls: from https://documents1.worldbank.org/curated/en/930751585234915451/pdf/Determinants-of-Global-Value-Chain-Participation-Cross-Country-Evidence.pdf
 
 1. GVC participation rates: from https://mrio.adbx.online/
+   1. https://wits.worldbank.org/gvc/gvc-output-table.html
 2. Controls: https://link.springer.com/article/10.1007/s41775-022-00137-w
 3. Dependent and IV: from our previous paper 
