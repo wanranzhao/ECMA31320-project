@@ -45,8 +45,24 @@ Controls:
 
 #### [`combined_data`](https://github.com/wanranzhao/ECMA31320-project/tree/main/data/combined_data) folder
 
+
+
+
 ### [`code`](https://github.com/wanranzhao/ECMA31320-project/tree/main/code) folder
 
+#### [`Summary_stat`](https://github.com/wanranzhao/ECMA31320-project/tree/main/code/Summary_stat)
+
+
+#### [`Plots`](https://github.com/wanranzhao/ECMA31320-project/tree/main/code/Plots)
+
+
+#### [`External_IV`](https://github.com/wanranzhao/ECMA31320-project/tree/main/code/External_IV)
+
+
+#### [`Internal_IV`](https://github.com/wanranzhao/ECMA31320-project/tree/main/code/Internal_IV)
+
+
+#### [`double_ml`](https://github.com/wanranzhao/ECMA31320-project/tree/main/code/double_ml)
 
 
 
