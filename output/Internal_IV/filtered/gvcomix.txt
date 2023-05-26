@@ -1,0 +1,59 @@
+========Predictor =  gvcomix ========
+******sector 1********
+IV = World Average; Sys.
+failed Hansen test, p-value:  0.25663618412458133
+IV = World Average; Dif.
+failed Hansen test, p-value:  0.643675970781201
+            variable  coefficient   std_err   z_value   p_value sig
+0     L1.onset2COWCS     0.022311  0.034982  0.637797  0.523606    
+1                 s1    -0.101053  0.157344 -0.642242  0.520716    
+2       trans_outp_p     0.186101  0.142484  1.306113  0.191514    
+3  ecgrowth_demeaned    -0.209740  0.097571 -2.149624  0.031585   *
+4      logpop_M_diff     6.755561  8.473971  0.797213  0.425327    
+5    logpopdens_diff     6.755624  8.474067  0.797211  0.425328    
+6     logoutreg_diff     0.198606  0.470842  0.421810  0.673164    
+7     democracy_diff   -12.839419  7.169389 -1.790866  0.073315    
+8               _con    -0.000118  0.008147 -0.014473  0.988452    
+AR(1) test P value:  5.604086161889388e-05 AR(2) test P value:  0.7515115241765921 Hansen test P value:  0.17302477979767406 
+
+IV = Transport; Sys.
+failed Hansen test, p-value:  0.6992805684865022
+IV = World Average; Sys; t-FE.
+failed Hansen test, p-value:  0.9139004488929675
+IV = Transport; Dif.
+failed Hansen test, p-value:  0.9062355721311666
+******sector 2********
+IV = World Average; Sys.
+failed Hansen test, p-value:  0.8213432055041808
+IV = World Average; Dif.
+failed Hansen test, p-value:  0.9944774216659571
+failed Hansen test, p-value:  0.4984005100847676
+IV = Transport; Sys.
+failed Hansen test, p-value:  0.7151020823384155
+IV = World Average; Sys; t-FE.
+failed Hansen test, p-value:  0.9591347545617674
+IV = Transport; Dif.
+failed Hansen test, p-value:  0.969799401193095
+******sector 6********
+IV = World Average; Sys.
+failed Hansen test, p-value:  0.2670287940931799
+IV = World Average; Dif.
+failed Hansen test, p-value:  0.5620310035333439
+failed Hansen test, p-value:  0.46415127909077736
+IV = Transport; Sys.
+failed Hansen test, p-value:  0.5594843157848006
+IV = World Average; Sys; t-FE.
+failed Hansen test, p-value:  0.6607468148234794
+IV = Transport; Dif.
+failed Hansen test, p-value:  0.7551677400914403
+IV = World Average; Sys.
+failed Hansen test, p-value:  0.059663043240297364
+IV = World Average; Dif.
+failed Hansen test, p-value:  0.7541792722546623
+failed Hansen test, p-value:  0.5010156647207342
+IV = Transport; Sys.
+failed Hansen test, p-value:  0.060594701471827106
+IV = World Average; Sys; t-FE.
+failed Hansen test, p-value:  0.8124615464828164
+IV = Transport; Dif.
+failed Hansen test, p-value:  0.7055791432007926

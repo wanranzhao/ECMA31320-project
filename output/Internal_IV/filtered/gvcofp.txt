@@ -1,0 +1,81 @@
+========Predictor =  gvcofp ========
+******sector 1********
+IV = World Average; Sys.
+            variable  coefficient   std_err   z_value   p_value sig
+0     L1.onset2COWCS     0.020332  0.032420  0.627131  0.530574    
+1                 s1     1.744058  1.470802  1.185787  0.235707    
+2              avgs1    -3.916333  2.769748 -1.413967  0.157372    
+3  ecgrowth_demeaned    -0.192364  0.094116 -2.043900  0.040963   *
+4      logpop_M_diff     4.577425  6.545526  0.699321  0.484351    
+5    logpopdens_diff     4.577459  6.545534  0.699326  0.484349    
+6     logoutreg_diff     0.550375  0.492078  1.118472  0.263365    
+7     democracy_diff   -12.312333  6.038138 -2.039094  0.041441   *
+8               _con     0.011321  0.003811  2.970456  0.002974  **
+AR(1) test P value:  4.911497031548453e-05 AR(2) test P value:  0.5719668477124809 Hansen test P value:  0.14180774062605161 
+
+IV = World Average; Dif.
+failed Hansen test, p-value:  0.3779502134138488
+            variable  coefficient   std_err   z_value   p_value sig
+0     L1.onset2COWCS     0.020768  0.033004  0.629249  0.529186    
+1                 s1     1.699319  1.575758  1.078414  0.280849    
+2       trans_outp_p     0.225661  0.163115  1.383449  0.166527    
+3  ecgrowth_demeaned    -0.183018  0.092303 -1.982802  0.047390   *
+4      logpop_M_diff     6.788978  6.079969  1.116614  0.264159    
+5    logpopdens_diff     6.788966  6.079956  1.116614  0.264159    
+6     logoutreg_diff     0.565471  0.498707  1.133874  0.256847    
+7     democracy_diff   -11.607304  5.956922 -1.948540  0.051350    
+8               _con    -0.004705  0.008023 -0.586459  0.557567    
+AR(1) test P value:  5.010949702532353e-05 AR(2) test P value:  0.5411581363656313 Hansen test P value:  0.2188330904169875 
+
+IV = Transport; Sys.
+failed Hansen test, p-value:  0.44978558694452186
+IV = World Average; Sys; t-FE.
+failed Hansen test, p-value:  0.5091679874750055
+IV = Transport; Dif.
+failed Hansen test, p-value:  0.7480412423885388
+******sector 2********
+IV = World Average; Sys.
+            variable  coefficient   std_err   z_value   p_value sig
+0     L1.onset2COWCS     0.021691  0.034335  0.631733  0.527561    
+1                 s2     2.346645  1.948468  1.204354  0.228453    
+2              avgs2    -0.459900  1.888809 -0.243487  0.807628    
+3  ecgrowth_demeaned    -0.178517  0.090629 -1.969746  0.048868   *
+4      logpop_M_diff     6.723158  8.074345  0.832657  0.405038    
+5    logpopdens_diff     6.723281  8.074458  0.832660  0.405036    
+6     logoutreg_diff     0.130787  0.450945  0.290028  0.771795    
+7     democracy_diff   -12.436669  7.156169 -1.737895  0.082229    
+8               _con     0.009766  0.004694  2.080290  0.037499   *
+AR(1) test P value:  0.00041719121690260755 AR(2) test P value:  0.5340842033307718 Hansen test P value:  0.19742368135474675 
+
+IV = World Average; Dif.
+failed Hansen test, p-value:  0.8638481288858652
+failed Hansen test, p-value:  0.5729871727488014
+IV = Transport; Sys.
+failed Hansen test, p-value:  0.9683345700750897
+IV = World Average; Sys; t-FE.
+failed Hansen test, p-value:  0.9849296920637517
+IV = Transport; Dif.
+failed Hansen test, p-value:  0.9859422884401152
+******sector 6********
+IV = World Average; Sys.
+failed Hansen test, p-value:  0.866129640810384
+IV = World Average; Dif.
+failed Hansen test, p-value:  0.9791286974208916
+failed Hansen test, p-value:  0.8175925019719092
+IV = Transport; Sys.
+failed Hansen test, p-value:  0.9122080503562106
+IV = World Average; Sys; t-FE.
+failed Hansen test, p-value:  0.9938046296436885
+IV = Transport; Dif.
+failed Hansen test, p-value:  0.9936784559124724
+IV = World Average; Sys.
+failed Hansen test, p-value:  0.3487366305375711
+IV = World Average; Dif.
+failed Hansen test, p-value:  0.8550459674732487
+failed Hansen test, p-value:  0.08348495361641306
+IV = Transport; Sys.
+failed Hansen test, p-value:  0.42437203549608415
+IV = World Average; Sys; t-FE.
+failed Hansen test, p-value:  0.6485809739746067
+IV = Transport; Dif.
+failed Hansen test, p-value:  0.8465848647098563
