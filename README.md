@@ -22,6 +22,15 @@ Controls:
 
 ## File description
 
-### [`code`](https://github.com/wanranzhao/ECMA31320-project/tree/main/code) folder
+### [research proposal](https://github.com/wanranzhao/ECMA31320-project/blob/main/GVC%20and%20Political%20Stability%20-%20Research%20Proposal.docx)
+
 
 ### [`data`](https://github.com/wanranzhao/ECMA31320-project/tree/main/data) folder
+
+
+
+### [`code`](https://github.com/wanranzhao/ECMA31320-project/tree/main/code) folder
+
+
+
+
