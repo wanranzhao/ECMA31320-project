@@ -33,15 +33,15 @@ Controls:
 
 #### [`stability`](https://github.com/wanranzhao/ECMA31320-project/tree/main/data/stability) folder
 
-[`0.2 political_stability_data_cleaning.ipynb`](https://github.com/wanranzhao/ECMA31320-project/blob/main/data/stability/0.2%20political_stability_data_cleaning.ipynb):
+[`0.2 political_stability_data_cleaning.ipynb`](https://github.com/wanranzhao/ECMA31320-project/blob/main/data/stability/0.2%20political_stability_data_cleaning.ipynb): data cleaning code for political instability data
 
-[`ASPO-Sample.dta`](https://github.com/wanranzhao/ECMA31320-project/blob/main/data/stability/ASPO-Sample.dta):
+[`ASPO-Sample.dta`](https://github.com/wanranzhao/ECMA31320-project/blob/main/data/stability/ASPO-Sample.dta): political instability data
 
-[`Comprehensive-Sample.dta`](https://github.com/wanranzhao/ECMA31320-project/blob/main/data/stability/Comprehensive-Sample.dta):
+[`Comprehensive-Sample.dta`](https://github.com/wanranzhao/ECMA31320-project/blob/main/data/stability/Comprehensive-Sample.dta): political instability data
 
-[`Read-me.pdf`](https://github.com/wanranzhao/ECMA31320-project/blob/main/data/stability/Read-me.pdf):
+[`Read-me.pdf`](https://github.com/wanranzhao/ECMA31320-project/blob/main/data/stability/Read-me.pdf): political instability data codebook
 
-[`stability_df.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/data/stability/stability_df.csv):
+[`stability_df.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/data/stability/stability_df.csv): cleaned political instability data
 
 #### [`combined_data`](https://github.com/wanranzhao/ECMA31320-project/tree/main/data/combined_data) folder
 
