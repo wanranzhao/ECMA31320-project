@@ -70,6 +70,8 @@ Controls:
 
 [`1.3_extIV_bp.ipynb`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/External_IV/1.3_extIV_bp.ipynb): Baseline 2SLS model regressions, using gvc backward participation data. Also includes data concatenation and robustness check.
 
+[`1.4_robustness_checks.ipynb`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/External_IV/1.4_robustness_checks.ipynb): Robustness checks
+
 [`bp_results.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/External_IV/bp_results.csv): results for Baseline model gvc backward participation data
 
 [`fp_results.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/External_IV/fp_results.csv): results for Baseline model gvc backward participation data
