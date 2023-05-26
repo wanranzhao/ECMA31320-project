@@ -64,24 +64,24 @@ Controls:
 
 #### [`double_ml`](https://github.com/wanranzhao/ECMA31320-project/tree/main/code/double_ml)
 
-[`3.1 ml-data-wrangling.ipynb`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/double_ml/3.1%20ml-data-wrangling.ipynb):
+[`3.1 ml-data-wrangling.ipynb`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/double_ml/3.1%20ml-data-wrangling.ipynb): data wrangling for double ml, as LATE identification needs binarized treatment and instrument.
 
-[`3.2 ml-modeling-mix.ipynb`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/double_ml/3.2%20ml-modeling-mix.ipynb):
+[`3.2 ml-modeling-mix.ipynb`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/double_ml/3.2%20ml-modeling-mix.ipynb): double ml modeling on gvc mixed participation data. 
 
-[`3.3 ml-modeling-forward.ipynb`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/double_ml/3.3%20ml-modeling-forward.ipynb):
+[`3.3 ml-modeling-forward.ipynb`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/double_ml/3.3%20ml-modeling-forward.ipynb): double ml modeling on gvc forward participation data. 
 
-[`3.4 ml-modeling-backward.ipynb`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/double_ml/3.4%20ml-modeling-backward.ipynb):
+[`3.4 ml-modeling-backward.ipynb`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/double_ml/3.4%20ml-modeling-backward.ipynb): double ml modeling on gvc backward participation data. 
 
-[`3.5 concat_results.ipynb`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/double_ml/3.5%20concat_results.ipynb):
+[`3.5 concat_results.ipynb`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/double_ml/3.5%20concat_results.ipynb): concatenated results for double ml.
 
-[`df_mix`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/double_ml/df_mix.csv):
+[`df_mix`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/double_ml/df_mix.csv): double ml gvc mixed participation data.
 
-[`df_fp.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/double_ml/df_fp.csv):
+[`df_fp.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/double_ml/df_fp.csv): double ml gvc forward participation data.
 
-[`df_bp.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/double_ml/df_bp.csv):
+[`df_bp.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/double_ml/df_bp.csv): double ml gvc backward participation data.
 
-[`mix_res.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/double_ml/mix_res.csv):
+[`mix_res.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/double_ml/mix_res.csv): double ml gvc mixed participation modeling results.
 
-[`forward_res.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/double_ml/forward_res.csv):
+[`forward_res.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/double_ml/forward_res.csv): double ml gvc forward participation modeling results.
 
-[`backward_res.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/double_ml/backward_res.csv):
+[`backward_res.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/double_ml/backward_res.csv): double ml gvc backward participation modeling results.
