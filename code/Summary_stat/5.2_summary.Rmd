@@ -1,0 +1,29 @@
+---
+title: "5.2_summary"
+author: "Wanran Zhao"
+date: "2023-05-26"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(stargazer)
+library(here)
+library(readr)
+```
+
+```{r}
+gvcobp_final_data <- read_csv(paste0(here(), "/code/Summary_stat/gvcobp_final_data.csv"))
+stargazer(as.data.frame(gvcobp_final_data))
+```
+
+```{r}
+gvcofp_final_data <- read_csv(paste0(here(), "/code/Summary_stat/gvcofp_final_data.csv"))
+stargazer(as.data.frame(gvcofp_final_data))
+```
+
+```{r}
+gvcomix_final_data <- read_csv(paste0(here(), "/code/Summary_stat/gvcomix_final_data.csv"))
+stargazer(as.data.frame(gvcomix_final_data))
+```
+

@@ -61,13 +61,6 @@ Controls:
 
 ### [`code`](https://github.com/wanranzhao/ECMA31320-project/tree/main/code) folder
 
-#### [`Summary_stat`](https://github.com/wanranzhao/ECMA31320-project/tree/main/code/Summary_stat)
-
-
-#### [`Plots`](https://github.com/wanranzhao/ECMA31320-project/tree/main/code/Plots)
-
-[`4.1_plots.ipynb`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/Plots/4.1_plots.ipynb): Code for ploting any graphs to use in the paper.
-
 
 #### [`External_IV`](https://github.com/wanranzhao/ECMA31320-project/tree/main/code/External_IV)
 
@@ -85,8 +78,9 @@ Controls:
 
 [`fuel_results.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/External_IV/fuel_results.csv): Concatenated and filtered results for just the fuel sector, but all three gvc measures
 
-
 #### [`Internal_IV`](https://github.com/wanranzhao/ECMA31320-project/tree/main/code/Internal_IV)
+
+[`2_extIV_mix.ipynb`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/Internal_IV/2_InternalIV.ipynb): All internal IV results, using (1) transport as external IV, (2) world-level GVC participation as external IV, and (3) no external IV. Results for gvc mixed, forward, and backward data are all inclued.
 
 
 #### [`double_ml`](https://github.com/wanranzhao/ECMA31320-project/tree/main/code/double_ml)
@@ -112,3 +106,32 @@ Controls:
 [`forward_res.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/double_ml/forward_res.csv): double ml gvc forward participation modeling results.
 
 [`backward_res.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/double_ml/backward_res.csv): double ml gvc backward participation modeling results.
+
+
+#### [`Plots`](https://github.com/wanranzhao/ECMA31320-project/tree/main/code/Plots)
+
+[`4.1_plots.ipynb`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/Plots/4.1_plots.ipynb): Code for ploting any graphs to use in the paper.
+
+#### [`Summary_stat`](https://github.com/wanranzhao/ECMA31320-project/tree/main/code/Summary_stat)
+
+[`5.1_summary.ipynb`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/Plots/5.1_summary.ipynb): Code for summary stats (differentiated by variable onset2COWCS)
+
+[`5.2_summary.Rmd`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/Plots/5.2_summary.Rmd): Code for summary stats (using stargazer packaged in R)
+
+[`gvcobp_final_data.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/Summary_stat/gvcobp_final_data.csv): the same to [`gvcobp_data.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/data/combined_data/gvcobp_data.csv) after dropping NAs
+
+[`gvcofp_final_data.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/Summary_stat/gvcofp_final_data.csv): the same to [`gvcofp_data.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/data/combined_data/gvcofp_data.csv) after dropping NAs
+
+[`gvcomix_final_data.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/Summary_stat/gvcomix_final_data.csv): the same to [`gvcomix_data.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/data/combined_data/gvcomix_data.csv) after dropping NAs
+
+
+
+### [`output`](https://github.com/wanranzhao/ECMA31320-project/tree/main/output) folder
+
+#### [`Internal_IV`](https://github.com/wanranzhao/ECMA31320-project/tree/main/output/Internal_IV)
+
+[`gvcomix`](https://github.com/wanranzhao/ECMA31320-project/blob/output/Internal_IV/gvcomix.txt): internal iv estimates for gvc mixed participation.
+
+[`gvcofp`](https://github.com/wanranzhao/ECMA31320-project/blob/output/Internal_IV/gvcofp.txt): internal iv estimates for gvc forward participation 
+
+[`gvcobp`](https://github.com/wanranzhao/ECMA31320-project/blob/output/Internal_IV/gvcobp.txt): internal iv estimates for gvc backward participation 
