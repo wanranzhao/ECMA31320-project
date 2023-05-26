@@ -1,7 +1,7 @@
 # ECMA31320-project
 Final project for ECMA 31320 
 
-## Preliminary Research Topic
+## Research Topic
 
 The effect of GVC participation rates on political instability 
 
