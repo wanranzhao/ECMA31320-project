@@ -1,23 +1,27 @@
 # ECMA31320-project
 Final project for ECMA 31320 
 
+## Preliminary Research Topic
 
-
-# Preliminary Research Topic
-
-The effect of political instability on GVC participation rates
+The effect of GVC participation rates on political instability 
 
 ## Data
 
-Dependent: GVC participation rates by industry sector, forward and backward
+Dependent: political instability 
 
-Independent: political instability 
+Independent: GVC participation rates by industry sector; mixed, forward, and backward
 
-IV: Language fractionalization/ethnic fractionalization
+IV: transport sector size; world-level GVC
 
-Controls: from https://documents1.worldbank.org/curated/en/930751585234915451/pdf/Determinants-of-Global-Value-Chain-Participation-Cross-Country-Evidence.pdf
+Controls: 
 
 1. GVC participation rates: from https://mrio.adbx.online/
    1. https://wits.worldbank.org/gvc/gvc-output-table.html
-2. Controls: https://link.springer.com/article/10.1007/s41775-022-00137-w
+2. Controls: 
 3. Dependent and IV: from our previous paper 
+
+## File description
+
+### [`code`](https://github.com/wanranzhao/ECMA31320-project/tree/main/code) folder
+
+### [`data`](https://github.com/wanranzhao/ECMA31320-project/tree/main/data) folder
