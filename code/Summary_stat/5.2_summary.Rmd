@@ -10,6 +10,9 @@ knitr::opts_chunk$set(echo = TRUE)
 library(stargazer)
 library(here)
 library(readr)
+library(ggplot2)
+library(data.table)
+library(patchwork)
 ```
 
 ```{r}
@@ -26,4 +29,29 @@ stargazer(as.data.frame(gvcofp_final_data))
 gvcomix_final_data <- read_csv(paste0(here(), "/code/Summary_stat/gvcomix_final_data.csv"))
 stargazer(as.data.frame(gvcomix_final_data))
 ```
+
+
+```{r}
+df1 = as.data.table(gvcobp_final_data)
+df1$type = "Backward"
+df2 = as.data.table(gvcofp_final_data)
+df2$type = "Forward"
+df3 = as.data.table(gvcomix_final_data)
+df3$type = "Mix"
+
+plot_data1 = melt(df1, id.vars=c("country", "t"), measure.vars = c("s1", "s2", "s6", "s10"), variable.name = "sector", value.name = "p")
+plot_data2 = melt(df2, id.vars=c("country", "t"), measure.vars = c("s1", "s2", "s6", "s10"), variable.name = "sector", value.name = "p")
+plot_data3 = melt(df3, id.vars=c("country", "t"), measure.vars = c("s1", "s2", "s6", "s10"), variable.name = "sector", value.name = "p")
+
+p1 = ggplot(plot_data1) + geom_density(aes(x=log(p), group = sector, color = sector)) + xlab("log (Backward Participation Rates, Differenced)") + theme_bw()  + scale_color_discrete(name = "Sector", breaks=c("s1", "s2", "s6", "s10"), labels=c("Agriculture, forestry, and fishing", "Mining and quary", "Fuel", "Metals"))
+
+p2 = ggplot(plot_data2) + geom_density(aes(x=log(p), group = sector, color = sector)) + xlab("log (Forward Participation Rates, Differenced)") + theme_bw() + scale_color_discrete(name = "Sector", breaks=c("s1", "s2", "s6", "s10"), labels=c("Agriculture, forestry, and fishing", "Mining and quary", "Fuel", "Metals"))
+
+p3 = ggplot(plot_data3) + geom_density(aes(x=log(p), group = sector, color = sector)) + xlab("log (Mix Participation Rates, Differenced)") + theme_bw() + scale_color_discrete(name = "Sector", breaks=c("s1", "s2", "s6", "s10"), labels=c("Agriculture, forestry, and fishing", "Mining and quary", "Fuel", "Metals"))
+```
+
+```{r warning=FALSE}
+p1 / p2 / p3 
+```
+
 

@@ -1,0 +1,1188 @@
+========Predictor =  gvcofp ========
+
+******sector 1********
+IV = World Average; Sys.
+failed Hansen test, p-value:  0.32366049654524853 
+
+--------------
+failed Hansen test, p-value:  0.5336714648265004 
+
+--------------
+failed Hansen test, p-value:  0.6570762596327897 
+
+--------------
+failed Hansen test, p-value:  0.5989807272987373 
+
+--------------
+failed Hansen test, p-value:  0.5151357456855707 
+
+--------------
+failed Hansen test, p-value:  0.6925490977262132 
+
+--------------
+failed Hansen test, p-value:  0.5256996336678708 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.4751050553091962 
+
+failed Hansen test, p-value:  0.9759387620584976 
+
+--------------
+failed Hansen test, p-value:  0.9848696692573541 
+
+--------------
+failed Hansen test, p-value:  0.9956419255164757 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.11964515024497654 
+
+failed Hansen test, p-value:  0.9928981427912008 
+
+--------------
+IV = World Average; Dif.
+failed Hansen test, p-value:  0.5187062023679055 
+
+--------------
+failed Hansen test, p-value:  0.5990828888939724 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.14264267003332623 
+
+failed Hansen test, p-value:  0.9441917247080925 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.9773526031257488 
+
+failed Hansen test, p-value:  0.9862659821249571 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.758898007065079 
+
+failed Hansen test, p-value:  0.9482177788727167 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.7465789453301327 
+
+failed Hansen test, p-value:  0.996849209398493 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.4632852215956771 
+
+failed Hansen test, p-value:  0.9349290064361253 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.9230560317514389 
+
+failed Hansen test, p-value:  0.9929663845707378 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.4668767195515684 
+
+failed Hansen test, p-value:  0.9956817852981573 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.4604051683742373 
+
+failed Hansen test, p-value:  0.988883649856125 
+
+--------------
+                      variable  coefficient    std_err   z_value   p_value sig
+0               L1.onset2COWCS    -0.008953   0.006245 -1.433623  0.151680    
+1                           s1     1.966994   1.664473  1.181751  0.237304    
+2                 trans_outp_p     0.242692   0.234053  1.036912  0.299777    
+3            ecgrowth_demeaned    -0.255711   0.095581 -2.675340  0.007465  **
+4                logpop_M_diff    -2.524003  10.270680 -0.245748  0.805877    
+5              logpopdens_diff    -2.523969  10.270669 -0.245745  0.805879    
+6               logoutreg_diff     0.224742   0.442838  0.507504  0.611801    
+7               democracy_diff   -13.334066   8.588075 -1.552626  0.120513    
+8                  logmountain     0.096081   0.056719  1.693987  0.090268    
+9     ethnic_fractionalization     1.303121   1.766117  0.737845  0.460608    
+10  religion_fractionalization    -0.014597   1.168109 -0.012497  0.990029    
+11  language_fractionalization     1.776228   1.513682  1.173448  0.240616    
+12                 leg_british     0.774642   0.576268  1.344240  0.178871    
+13                        opec    -0.011700   0.011862 -0.986335  0.323969    
+14                        _con    -0.013913   0.014969 -0.929406  0.352679    
+AR(1) test P value:  0.0030403441301102133 
+
+AR(2) test P value:  0.7578083840296054 
+
+Hansen test P value:  0.19566683536295282 
+
+
+
+--------------
+failed Hansen test, p-value:  0.470616987254602 
+
+--------------
+failed Hansen test, p-value:  0.7766130624309566 
+
+--------------
+failed Hansen test, p-value:  0.3672806905880249 
+
+--------------
+                      variable  coefficient    std_err   z_value   p_value sig
+0               L1.onset2COWCS    -0.001112   0.009023 -0.123265  0.901898    
+1               L2.onset2COWCS    -0.004624   0.017502 -0.264208  0.791619    
+2               L3.onset2COWCS    -0.019350   0.016472 -1.174711  0.240110    
+3               L4.onset2COWCS     0.119208   0.106650  1.117748  0.263675    
+4               L5.onset2COWCS     0.227013   0.327295  0.693602  0.487932    
+5                           s1     0.375164   0.848193  0.442309  0.658265    
+6                 trans_outp_p     0.247767   0.311349  0.795784  0.426157    
+7            ecgrowth_demeaned    -0.208081   0.088154 -2.360423  0.018254   *
+8                logpop_M_diff     1.177958   8.748713  0.134644  0.892894    
+9              logpopdens_diff     1.177739   8.748540  0.134621  0.892911    
+10              logoutreg_diff     0.470992   0.732086  0.643356  0.519993    
+11              democracy_diff   -20.604213  26.533065 -0.776549  0.437425    
+12                 logmountain     0.071994   0.066726  1.078951  0.280609    
+13    ethnic_fractionalization     0.323450   2.534714  0.127608  0.898459    
+14  religion_fractionalization    -0.401875   1.254567 -0.320330  0.748719    
+15  language_fractionalization     1.957333   1.916596  1.021255  0.307134    
+16                 leg_british     0.496492   0.773031  0.642267  0.520700    
+17                        opec    -0.011716   0.011174 -1.048535  0.294392    
+18                        _con    -0.012931   0.016687 -0.774923  0.438385    
+AR(1) test P value:  0.008525849532842236 
+
+AR(2) test P value:  0.18190344216193488 
+
+Hansen test P value:  0.22814951463746957 
+
+
+
+--------------
+failed Hansen test, p-value:  0.7288022805576743 
+
+--------------
+failed Hansen test, p-value:  0.8660486895457443 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.3185674267134124 
+
+failed Hansen test, p-value:  0.9241657921475189 
+
+--------------
+failed Hansen test, p-value:  0.9932167247793471 
+
+--------------
+failed Hansen test, p-value:  0.9972090913080476 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.10260357183574599 
+
+failed Hansen test, p-value:  0.9252238573743883 
+
+--------------
+IV = Transport; Sys.
+failed Hansen test, p-value:  0.5313175898650506 
+
+--------------
+failed Hansen test, p-value:  0.9702254426838941 
+
+--------------
+failed Hansen test, p-value:  0.9959898865036464 
+
+--------------
+failed Hansen test, p-value:  0.9949985307468913 
+
+--------------
+failed Hansen test, p-value:  0.9999508248924436 
+
+--------------
+IV = Transport; Sys; t-FE.
+failed Hansen test, p-value:  0.6271273874490362 
+
+--------------
+failed Hansen test, p-value:  0.7294594043466912 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.702310672832535 
+
+failed Hansen test, p-value:  0.9631458551310964 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.7999651320563331 
+
+failed Hansen test, p-value:  0.9939199683362125 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.6047078815595277 
+
+failed Hansen test, p-value:  0.9341754272507918 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.911638310300342 
+
+failed Hansen test, p-value:  0.9915902436175206 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.3916777647579971 
+
+failed Hansen test, p-value:  0.927016834156403 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.7552780514994227 
+
+failed Hansen test, p-value:  0.9571625704524584 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.3729209496065101 
+
+failed Hansen test, p-value:  0.9814557317833967 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.5764713005912969 
+
+failed Hansen test, p-value:  0.8715850197308368 
+
+--------------
+IV = Transport; Dif.
+failed Hansen test, p-value:  0.6434989592565331 
+
+--------------
+failed Hansen test, p-value:  0.979601772106275 
+
+--------------
+IV = Transport; Dif; t-FE.
+                      variable  coefficient    std_err   z_value   p_value sig
+0               L1.onset2COWCS    -0.008999   0.006360 -1.414882  0.157103    
+1                           s1     1.865877   1.753210  1.064263  0.287209    
+2            ecgrowth_demeaned    -0.258641   0.105197 -2.458627  0.013947   *
+3                logpop_M_diff    -2.881189  10.520159 -0.273873  0.784182    
+4              logpopdens_diff    -2.881126  10.520372 -0.273862  0.784191    
+5               logoutreg_diff     0.287015   0.480337  0.597529  0.550155    
+6               democracy_diff   -15.546717   8.043583 -1.932810  0.053260    
+7                  logmountain     0.103689   0.049307  2.102935  0.035471   *
+8     ethnic_fractionalization     1.269587   1.721884  0.737325  0.460925    
+9   religion_fractionalization    -0.084879   1.231379 -0.068930  0.945045    
+10  language_fractionalization     1.946458   1.491598  1.304948  0.191911    
+11                 leg_british     0.633482   0.566480  1.118278  0.263448    
+12                        opec    -0.009666   0.011391 -0.848593  0.396108    
+13                        _con    -0.001160   0.005493 -0.211115  0.832798    
+AR(1) test P value:  0.0032473260945170388 
+
+AR(2) test P value:  0.8454262036031869 
+
+Hansen test P value:  0.20051790587388785 
+
+
+
+--------------
+failed Hansen test, p-value:  0.4588267944832707 
+
+--------------
+failed Hansen test, p-value:  0.7229887239238737 
+
+--------------
+                      variable  coefficient    std_err   z_value   p_value sig
+0               L1.onset2COWCS    -0.005403   0.009143 -0.590999  0.554521    
+1               L2.onset2COWCS    -0.010114   0.011319 -0.893552  0.371562    
+2               L3.onset2COWCS    -0.012438   0.013067 -0.951864  0.341166    
+3               L4.onset2COWCS     0.129592   0.079785  1.624262  0.104320    
+4                           s1     1.244878   1.583713  0.786051  0.431838    
+5            ecgrowth_demeaned    -0.262098   0.097711 -2.682378  0.007310  **
+6                logpop_M_diff    -4.751436  12.483631 -0.380613  0.703490    
+7              logpopdens_diff    -4.751508  12.483555 -0.380621  0.703484    
+8               logoutreg_diff     0.375466   0.616500  0.609029  0.542505    
+9               democracy_diff   -16.068811   9.118738 -1.762175  0.078040    
+10                 logmountain     0.081740   0.073717  1.108836  0.267501    
+11    ethnic_fractionalization     1.106808   1.962589  0.563953  0.572786    
+12  religion_fractionalization    -0.268472   1.183140 -0.226915  0.820490    
+13  language_fractionalization     1.625491   1.668033  0.974496  0.329810    
+14                 leg_british     0.354448   0.728664  0.486435  0.626659    
+15                        opec    -0.012106   0.013442 -0.900601  0.367800    
+16                        _con     0.001184   0.007618  0.155364  0.876534    
+AR(1) test P value:  0.003837920348622983 
+
+AR(2) test P value:  0.24991774452371485 
+
+Hansen test P value:  0.28352792785675596 
+
+
+
+--------------
+failed Hansen test, p-value:  0.33767643207763465 
+
+--------------
+failed Hansen test, p-value:  0.7033989158743333 
+
+--------------
+failed Hansen test, p-value:  0.5312963799906497 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.29173624700843337 
+
+failed Hansen test, p-value:  0.9801769259085054 
+
+--------------
+failed Hansen test, p-value:  0.9897885013457638 
+
+--------------
+failed Hansen test, p-value:  0.9960648379920962 
+
+--------------
+failed Hansen test, p-value:  0.9948494788792199 
+
+--------------
+IV = none; Sys.
+failed Hansen test, p-value:  0.5161673469124917 
+
+--------------
+failed Hansen test, p-value:  0.9563232891020228 
+
+--------------
+failed Hansen test, p-value:  0.995640396665927 
+
+--------------
+failed Hansen test, p-value:  0.997919545274759 
+
+--------------
+failed Hansen test, p-value:  0.9997671702802003 
+
+--------------
+IV = none; Sys; t-FE.
+failed Hansen test, p-value:  0.4477680945363127 
+
+--------------
+failed Hansen test, p-value:  0.5532959185011757 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.14580746862592348 
+
+failed Hansen test, p-value:  0.9327441285975222 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.9795393904191787 
+
+failed Hansen test, p-value:  0.9770445570464913 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.8630828484495556 
+
+failed Hansen test, p-value:  0.9237700544439303 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.8529702794720718 
+
+failed Hansen test, p-value:  0.9952878606883411 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.4423305209898021 
+
+failed Hansen test, p-value:  0.9365098973093409 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.9864590759138263 
+
+failed Hansen test, p-value:  0.995702961924099 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.3696767163303888 
+
+failed Hansen test, p-value:  0.9912962249443948 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.38756440963012917 
+
+failed Hansen test, p-value:  0.9783103638600433 
+
+--------------
+IV = none; Dif.
+failed Hansen test, p-value:  0.44290124719152346 
+
+--------------
+failed Hansen test, p-value:  0.914447800453195 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.13460766294906334 
+
+failed Hansen test, p-value:  0.9999803556112384 
+
+--------------
+
+******sector 2********
+IV = World Average; Sys.
+failed Hansen test, p-value:  0.8291215825919321 
+
+--------------
+failed Hansen test, p-value:  0.9922956745633353 
+
+--------------
+failed Hansen test, p-value:  0.9975789589112218 
+
+--------------
+failed Hansen test, p-value:  0.9968230099668804 
+
+--------------
+failed Hansen test, p-value:  0.9819720425381431 
+
+--------------
+failed Hansen test, p-value:  0.978106655034183 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.12166503715799577 
+
+failed Hansen test, p-value:  0.9921155434680606 
+
+--------------
+failed Hansen test, p-value:  0.9861859202517166 
+
+--------------
+failed Hansen test, p-value:  0.9999824771453688 
+
+--------------
+failed Hansen test, p-value:  0.9947591096425399 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.11813063801432173 
+
+failed Hansen test, p-value:  0.9749061028425179 
+
+--------------
+IV = World Average; Dif.
+failed Hansen test, p-value:  0.9816631626024784 
+
+--------------
+failed Hansen test, p-value:  0.9945000389750837 
+
+--------------
+failed Hansen test, p-value:  0.9997288543029461 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.8195273951721818 
+
+failed Hansen test, p-value:  0.9994590945831476 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.1582961716934116 
+
+failed Hansen test, p-value:  0.9990495939395109 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.48873443420416085 
+
+failed Hansen test, p-value:  0.9934298453776754 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.5605960456525343 
+
+failed Hansen test, p-value:  0.9870682994529161 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.5570318833847546 
+
+failed Hansen test, p-value:  0.9788733781007589 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.6052688519943297 
+
+failed Hansen test, p-value:  0.9779963985434817 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.6659100228243545 
+
+failed Hansen test, p-value:  0.9123485340368975 
+
+--------------
+failed Hansen test, p-value:  0.8134183559930008 
+
+--------------
+failed Hansen test, p-value:  0.9983486579152808 
+
+--------------
+failed Hansen test, p-value:  0.9974365921558052 
+
+--------------
+failed Hansen test, p-value:  0.9891411368371472 
+
+--------------
+failed Hansen test, p-value:  0.9979169274414298 
+
+--------------
+failed Hansen test, p-value:  0.9854402452067144 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.22210631184735086 
+
+failed Hansen test, p-value:  0.9924964848846749 
+
+--------------
+failed Hansen test, p-value:  0.9901714005250577 
+
+--------------
+failed Hansen test, p-value:  0.9999812357697132 
+
+--------------
+failed Hansen test, p-value:  0.9994009517652895 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.11459870563637554 
+
+failed Hansen test, p-value:  0.9933004597675528 
+
+--------------
+IV = Transport; Sys.
+failed Hansen test, p-value:  0.9079697697450636 
+
+--------------
+IV = Transport; Sys; t-FE.
+failed Hansen test, p-value:  0.9963761946872268 
+
+--------------
+failed Hansen test, p-value:  0.9984941450931509 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.7074441750396614 
+
+failed Hansen test, p-value:  0.9999064965272885 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.24092127731887625 
+
+failed Hansen test, p-value:  0.9996139340763375 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.6124668475265869 
+
+failed Hansen test, p-value:  0.9982930878955979 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.5222517844934336 
+
+failed Hansen test, p-value:  0.9936652827443698 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.43054346079728145 
+
+failed Hansen test, p-value:  0.9979718142741054 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.6775062031596196 
+
+failed Hansen test, p-value:  0.9837980579169262 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.6869565556509147 
+
+failed Hansen test, p-value:  0.957866799498249 
+
+--------------
+IV = Transport; Dif.
+failed Hansen test, p-value:  0.9998242889839785 
+
+--------------
+IV = Transport; Dif; t-FE.
+failed Hansen test, p-value:  0.7586518353644972 
+
+--------------
+failed Hansen test, p-value:  0.993273888327833 
+
+--------------
+failed Hansen test, p-value:  0.9919029851714476 
+
+--------------
+failed Hansen test, p-value:  0.9901828282129148 
+
+--------------
+failed Hansen test, p-value:  0.9825649192242959 
+
+--------------
+failed Hansen test, p-value:  0.9923406923883572 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.1957455278870298 
+
+failed Hansen test, p-value:  0.9869127776379168 
+
+--------------
+failed Hansen test, p-value:  0.9868543514698642 
+
+--------------
+failed Hansen test, p-value:  0.9999528758072359 
+
+--------------
+failed Hansen test, p-value:  0.9917469312269683 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.12297496600905035 
+
+failed Hansen test, p-value:  0.995086061852329 
+
+--------------
+IV = none; Sys.
+failed Hansen test, p-value:  0.7466717497458832 
+
+--------------
+failed Hansen test, p-value:  0.999988850972715 
+
+--------------
+IV = none; Sys; t-FE.
+failed Hansen test, p-value:  0.9885198064624912 
+
+--------------
+failed Hansen test, p-value:  0.9958704252753754 
+
+--------------
+failed Hansen test, p-value:  0.9997452833254393 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.8621504805765943 
+
+failed Hansen test, p-value:  0.9996524346555536 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.1910143327154612 
+
+failed Hansen test, p-value:  0.9997190694497822 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.4945722359627688 
+
+failed Hansen test, p-value:  0.994931946673196 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.5475799789059014 
+
+failed Hansen test, p-value:  0.9915523269766859 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.5784913557186739 
+
+failed Hansen test, p-value:  0.9715107834202444 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.5080648451917935 
+
+failed Hansen test, p-value:  0.9883016921405139 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.6270437031484544 
+
+failed Hansen test, p-value:  0.943139555120338 
+
+--------------
+IV = none; Dif.
+failed Hansen test, p-value:  0.9993920249121917 
+
+--------------
+
+******sector 6********
+IV = World Average; Sys.
+failed Hansen test, p-value:  0.9939121288457727 
+
+--------------
+failed Hansen test, p-value:  0.9904313807209146 
+
+--------------
+failed Hansen test, p-value:  0.9970201284262776 
+
+--------------
+failed Hansen test, p-value:  0.9939775366890334 
+
+--------------
+failed Hansen test, p-value:  0.9845689343926504 
+
+--------------
+failed Hansen test, p-value:  0.9946173622103947 
+
+--------------
+failed Hansen test, p-value:  0.9791084561840946 
+
+--------------
+failed Hansen test, p-value:  0.9945740518355622 
+
+--------------
+failed Hansen test, p-value:  0.9912844077243003 
+
+--------------
+failed Hansen test, p-value:  0.9940385115211331 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.11128845029081195 
+
+failed Hansen test, p-value:  0.8777889762641152 
+
+--------------
+IV = World Average; Dif.
+failed Hansen test, p-value:  0.9987026370966241 
+
+--------------
+failed Hansen test, p-value:  0.9995641133688319 
+
+--------------
+failed Hansen test, p-value:  0.9987947343038285 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.3895225165767926 
+
+failed Hansen test, p-value:  0.9977710379238491 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.7265658213041813 
+
+failed Hansen test, p-value:  0.9960925253817735 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.8195947467183756 
+
+failed Hansen test, p-value:  0.863529172308871 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.5741101507421149 
+
+failed Hansen test, p-value:  0.997308123233506 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.527822724486726 
+
+failed Hansen test, p-value:  0.9991297994359715 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.7757359600478436 
+
+failed Hansen test, p-value:  0.9880887236709417 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.8204323762215919 
+
+failed Hansen test, p-value:  0.8570078729010264 
+
+--------------
+failed Hansen test, p-value:  0.9989756278810658 
+
+--------------
+failed Hansen test, p-value:  0.9978933757555627 
+
+--------------
+failed Hansen test, p-value:  0.9985014612463379 
+
+--------------
+failed Hansen test, p-value:  0.9956732183755714 
+
+--------------
+failed Hansen test, p-value:  0.9864005233947442 
+
+--------------
+failed Hansen test, p-value:  0.998074827564864 
+
+--------------
+failed Hansen test, p-value:  0.971654430673199 
+
+--------------
+failed Hansen test, p-value:  0.9900368517104094 
+
+--------------
+failed Hansen test, p-value:  0.9984007004266545 
+
+--------------
+failed Hansen test, p-value:  0.9888808100365656 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.10652370901071928 
+
+failed Hansen test, p-value:  0.8580246271768275 
+
+--------------
+IV = Transport; Sys.
+failed Hansen test, p-value:  0.9813756056601671 
+
+--------------
+failed Hansen test, p-value:  0.9999542713714321 
+
+--------------
+IV = Transport; Sys; t-FE.
+failed Hansen test, p-value:  0.9995898063679356 
+
+--------------
+failed Hansen test, p-value:  0.9998462534855416 
+
+--------------
+failed Hansen test, p-value:  0.9996522484568404 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.5052145641135695 
+
+failed Hansen test, p-value:  0.9994746236954162 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.9304764178056323 
+
+failed Hansen test, p-value:  0.9989474164637309 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.8295580511914936 
+
+failed Hansen test, p-value:  0.9844807029021392 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.5629080577278499 
+
+failed Hansen test, p-value:  0.9962174303865019 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.5713640483909271 
+
+failed Hansen test, p-value:  0.999120369543583 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.7616626139550189 
+
+failed Hansen test, p-value:  0.9894285731958239 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.9918472715632913 
+
+failed Hansen test, p-value:  0.9020929838205964 
+
+--------------
+IV = Transport; Dif.
+failed Hansen test, p-value:  0.9989671259357925 
+
+--------------
+failed Hansen test, p-value:  0.9747751960984163 
+
+--------------
+IV = Transport; Dif; t-FE.
+failed Hansen test, p-value:  0.9990329751226393 
+
+--------------
+failed Hansen test, p-value:  0.9953092393626203 
+
+--------------
+failed Hansen test, p-value:  0.9968174252416027 
+
+--------------
+failed Hansen test, p-value:  0.991261692944099 
+
+--------------
+failed Hansen test, p-value:  0.9686781908936428 
+
+--------------
+failed Hansen test, p-value:  0.9966290779770178 
+
+--------------
+failed Hansen test, p-value:  0.9771533822624999 
+
+--------------
+failed Hansen test, p-value:  0.9895958114791975 
+
+--------------
+failed Hansen test, p-value:  0.9972146831632934 
+
+--------------
+failed Hansen test, p-value:  0.9939330937885318 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.11060348391563457 
+
+failed Hansen test, p-value:  0.8871224399504227 
+
+--------------
+IV = none; Sys.
+failed Hansen test, p-value:  0.9929002887869013 
+
+--------------
+failed Hansen test, p-value:  0.9998566102927244 
+
+--------------
+IV = none; Sys; t-FE.
+failed Hansen test, p-value:  0.9990614368713521 
+
+--------------
+failed Hansen test, p-value:  0.9996311880201765 
+
+--------------
+failed Hansen test, p-value:  0.9989109574114412 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.39938795581401587 
+
+failed Hansen test, p-value:  0.9985172867004152 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.7097606620338986 
+
+failed Hansen test, p-value:  0.9965697263385266 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.8381228377043564 
+
+failed Hansen test, p-value:  0.8838015071831239 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.5953504289187366 
+
+failed Hansen test, p-value:  0.997141661943455 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.556404986993539 
+
+failed Hansen test, p-value:  0.9991839608541688 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.9117935335335539 
+
+failed Hansen test, p-value:  0.989159111979198 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.959860857468537 
+
+failed Hansen test, p-value:  0.899985850581789 
+
+--------------
+IV = none; Dif.
+failed Hansen test, p-value:  0.9979291961956296 
+
+--------------
+
+******sector 10*******
+IV = World Average; Sys.
+failed Hansen test, p-value:  0.9558054172574045 
+
+--------------
+failed Hansen test, p-value:  0.9830695715614908 
+
+--------------
+failed Hansen test, p-value:  0.9956679199392082 
+
+--------------
+failed Hansen test, p-value:  0.9931356267991077 
+
+--------------
+failed Hansen test, p-value:  0.9613857074968817 
+
+--------------
+failed Hansen test, p-value:  0.9327429410527759 
+
+--------------
+failed Hansen test, p-value:  0.990020866228657 
+
+--------------
+failed Hansen test, p-value:  0.9968870826366326 
+
+--------------
+failed Hansen test, p-value:  0.9962389844315205 
+
+--------------
+failed Hansen test, p-value:  0.9888198349759869 
+
+--------------
+failed Hansen test, p-value:  0.9807444610201214 
+
+--------------
+IV = World Average; Dif.
+failed Hansen test, p-value:  0.9980646944982998 
+
+--------------
+failed Hansen test, p-value:  0.9984683912301645 
+
+--------------
+failed Hansen test, p-value:  0.9994263766722232 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.4717884293949475 
+
+failed Hansen test, p-value:  0.9926338332231542 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.7148834280411902 
+
+failed Hansen test, p-value:  0.9997645775176386 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.8789896242792498 
+
+failed Hansen test, p-value:  0.995327441754348 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.7298655744740838 
+
+failed Hansen test, p-value:  0.997262104050888 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.7574331731383448 
+
+failed Hansen test, p-value:  0.9994839316782057 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.4905824597387274 
+
+failed Hansen test, p-value:  0.9792535163755873 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.9630454291924072 
+
+failed Hansen test, p-value:  0.5089137185545439 
+
+--------------
+failed Hansen test, p-value:  0.9494594529557734 
+
+--------------
+failed Hansen test, p-value:  0.9517190408943614 
+
+--------------
+failed Hansen test, p-value:  0.9987047920518194 
+
+--------------
+failed Hansen test, p-value:  0.9954248161370782 
+
+--------------
+failed Hansen test, p-value:  0.9993017501564901 
+
+--------------
+failed Hansen test, p-value:  0.9993994937330334 
+
+--------------
+failed Hansen test, p-value:  0.9962548877133954 
+
+--------------
+failed Hansen test, p-value:  0.9992951916381331 
+
+--------------
+failed Hansen test, p-value:  0.9943802312325746 
+
+--------------
+failed Hansen test, p-value:  0.9623544594826049 
+
+--------------
+failed Hansen test, p-value:  0.9739263072575044 
+
+--------------
+IV = Transport; Sys.
+failed Hansen test, p-value:  0.9988179011037777 
+
+--------------
+IV = Transport; Sys; t-FE.
+failed Hansen test, p-value:  0.9986547072972444 
+
+--------------
+failed Hansen test, p-value:  0.9976853879859316 
+
+--------------
+failed Hansen test, p-value:  0.9995697749521408 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.7071308651317789 
+
+failed Hansen test, p-value:  0.9939506349540657 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.48930950331244283 
+
+failed Hansen test, p-value:  0.9999585589933515 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.6424462462135203 
+
+failed Hansen test, p-value:  0.9987406304579386 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.7191760686146345 
+
+failed Hansen test, p-value:  0.9987069980977961 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.8326812933410582 
+
+failed Hansen test, p-value:  0.999042517221514 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.5966899945020037 
+
+failed Hansen test, p-value:  0.9682836777323564 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.9820138928141912 
+
+failed Hansen test, p-value:  0.6102323300971452 
+
+--------------
+IV = Transport; Dif.
+failed Hansen test, p-value:  0.9997817899650298 
+
+--------------
+IV = Transport; Dif; t-FE.
+failed Hansen test, p-value:  0.8682177697364555 
+
+--------------
+failed Hansen test, p-value:  0.9597826741967896 
+
+--------------
+failed Hansen test, p-value:  0.9950430442814038 
+
+--------------
+failed Hansen test, p-value:  0.9896287838753256 
+
+--------------
+failed Hansen test, p-value:  0.7657720298165254 
+
+--------------
+failed Hansen test, p-value:  0.9453755100912798 
+
+--------------
+failed Hansen test, p-value:  0.8521251722167015 
+
+--------------
+failed Hansen test, p-value:  0.9982902792724156 
+
+--------------
+failed Hansen test, p-value:  0.9600925898808178 
+
+--------------
+failed Hansen test, p-value:  0.9887353523797213 
+
+--------------
+failed Hansen test, p-value:  0.982079747204972 
+
+--------------
+IV = none; Sys.
+failed Hansen test, p-value:  0.9992307064083675 
+
+--------------
+IV = none; Sys; t-FE.
+failed Hansen test, p-value:  0.9978471362146756 
+
+--------------
+failed Hansen test, p-value:  0.9982403428680603 
+
+--------------
+failed Hansen test, p-value:  0.9993613294222605 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.6098309623899445 
+
+failed Hansen test, p-value:  0.9980779097785293 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.6905416963450017 
+
+failed Hansen test, p-value:  0.9996997818219474 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.9496222836384751 
+
+failed Hansen test, p-value:  0.9943300744716653 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.7559237786525006 
+
+failed Hansen test, p-value:  0.9981983955165792 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.8455717666303109 
+
+failed Hansen test, p-value:  0.9989485035297608 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.423984794241573 
+
+failed Hansen test, p-value:  0.9848906443710203 
+
+--------------
+failed AR1 test, AR(1) p-value:  0.7970326336678195 
+
+failed Hansen test, p-value:  0.5177270987762574 
+
+--------------
+IV = none; Dif.
+failed Hansen test, p-value:  0.9995809434438462 
+
+--------------

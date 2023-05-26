@@ -132,8 +132,14 @@ Controls:
 
 #### [`Internal_IV`](https://github.com/wanranzhao/ECMA31320-project/tree/main/output/Internal_IV)
 
-[`gvcomix`](https://github.com/wanranzhao/ECMA31320-project/blob/output/Internal_IV/gvcomix.txt): internal iv estimates for gvc mixed participation.
+[`gvcomix`](https://github.com/wanranzhao/ECMA31320-project/blob/output/Internal_IV/gvcomix.txt): internal iv estimates for gvc mixed participation, without stationary controls
 
-[`gvcofp`](https://github.com/wanranzhao/ECMA31320-project/blob/output/Internal_IV/gvcofp.txt): internal iv estimates for gvc forward participation 
+[`gvcofp`](https://github.com/wanranzhao/ECMA31320-project/blob/output/Internal_IV/gvcofp.txt): internal iv estimates for gvc forward participation, without stationary controls
 
-[`gvcobp`](https://github.com/wanranzhao/ECMA31320-project/blob/output/Internal_IV/gvcobp.txt): internal iv estimates for gvc backward participation 
+[`gvcobp`](https://github.com/wanranzhao/ECMA31320-project/blob/output/Internal_IV/gvcobp.txt): internal iv estimates for gvc backward participation, without stationary controls
+
+[`stationary_ctrlsgvcomix`](https://github.com/wanranzhao/ECMA31320-project/blob/output/Internal_IV/stationary_ctrlsgvcomix.txt): internal iv estimates for gvc mixed participation, with stationary controls
+
+[`stationary_ctrlsgvcofp`](https://github.com/wanranzhao/ECMA31320-project/blob/output/Internal_IV/stationary_ctrlsgvcofp.txt): internal iv estimates for gvc forward participation, with stationary controls
+
+[`stationary_ctrlsgvcobp`](https://github.com/wanranzhao/ECMA31320-project/blob/output/Internal_IV/stationary_ctrlsgvcobp.txt): internal iv estimates for gvc backward participation, with stationary controls 
