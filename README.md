@@ -45,6 +45,17 @@ Controls:
 
 #### [`combined_data`](https://github.com/wanranzhao/ECMA31320-project/tree/main/data/combined_data) folder
 
+[`0.3 Data_wrangling.ipynb`](https://github.com/wanranzhao/ECMA31320-project/blob/main/data/combined_data/0.3%20Data_wrangling.ipynb): Data wrangling to merge the data from our 2 data sources and format them properly to be used in our models. 
+
+[`outcome_and_control.ipynb`](https://github.com/wanranzhao/ECMA31320-project/blob/main/data/combined_data/outcome_and_control.ipynb): code file to run analysis on initial data/variable selection. 
+
+[`merged_052423.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/data/combined_data/merged_052423.csv): the merged WITS eora source gvc data with the stability data, this is our base panel data
+
+[`gvcobp_data.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/data/combined_data/gvcobp_data.csv): merged and wrangled gvc backward data for use in analysis
+
+[`gvcofp_data.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/data/combined_data/gvcofp_data.csv): merged and wrangled gvc forward data for use in analysis
+
+[`gvcomix_data.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/data/combined_data/gvcomix_data.csv): merged and wrangled gvc mixed data for use in analysis
 
 
 
@@ -55,24 +66,24 @@ Controls:
 
 #### [`Plots`](https://github.com/wanranzhao/ECMA31320-project/tree/main/code/Plots)
 
-['4.1_plots.ipynb'](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/Plots/4.1_plots.ipynb): Code for ploting any graphs to use in the paper.
+[`4.1_plots.ipynb`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/Plots/4.1_plots.ipynb): Code for ploting any graphs to use in the paper.
 
 
 #### [`External_IV`](https://github.com/wanranzhao/ECMA31320-project/tree/main/code/External_IV)
 
-['1.1_extIV_mix.ipynb'](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/External_IV/1.1_extIV_mix.ipynb): Baseline 2SLS model regressions, using gvc mix participation data.
+[`1.1_extIV_mix.ipynb`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/External_IV/1.1_extIV_mix.ipynb): Baseline 2SLS model regressions, using gvc mix participation data.
 
-['1.2_extIV_fp.ipynb'](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/External_IV/1.2_extIV_fp.ipynb): Baseline 2SLS model regressions, using gvc forward participation data.
+[`1.2_extIV_fp.ipynb`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/External_IV/1.2_extIV_fp.ipynb): Baseline 2SLS model regressions, using gvc forward participation data.
 
-['1.3_extIV_bp.ipynb'](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/External_IV/1.3_extIV_bp.ipynb): Baseline 2SLS model regressions, using gvc backward participation data.
+[`1.3_extIV_bp.ipynb`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/External_IV/1.3_extIV_bp.ipynb): Baseline 2SLS model regressions, using gvc backward participation data.
 
-['bp_results.csv'](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/External_IV/bp_results.csv): results for Baseline model gvc backward participation data
+[`bp_results.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/External_IV/bp_results.csv): results for Baseline model gvc backward participation data
 
-['fp_results.csv'](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/External_IV/fp_results.csv): results for Baseline model gvc backward participation data
+[`fp_results.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/External_IV/fp_results.csv): results for Baseline model gvc backward participation data
 
-['mix_results.csv'](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/External_IV/mix_results.csv): results for Baseline model gvc backward participation data
+[`mix_results.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/External_IV/mix_results.csv): results for Baseline model gvc backward participation data
 
-['fuel_results.csv'](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/External_IV/fuel_results.csv): Concatenated and filtered results for just the fuel sector, but all three gvc measures
+[`fuel_results.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/External_IV/fuel_results.csv): Concatenated and filtered results for just the fuel sector, but all three gvc measures
 
 
 #### [`Internal_IV`](https://github.com/wanranzhao/ECMA31320-project/tree/main/code/Internal_IV)
@@ -90,7 +101,7 @@ Controls:
 
 [`3.5 concat_results.ipynb`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/double_ml/3.5%20concat_results.ipynb): concatenated results for double ml.
 
-[`df_mix`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/double_ml/df_mix.csv): double ml gvc mixed participation data.
+[`df_mix.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/double_ml/df_mix.csv): double ml gvc mixed participation data.
 
 [`df_fp.csv`](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/double_ml/df_fp.csv): double ml gvc forward participation data.
 
