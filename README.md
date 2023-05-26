@@ -55,8 +55,24 @@ Controls:
 
 #### [`Plots`](https://github.com/wanranzhao/ECMA31320-project/tree/main/code/Plots)
 
+['']():
+
 
 #### [`External_IV`](https://github.com/wanranzhao/ECMA31320-project/tree/main/code/External_IV)
+
+['1.1_extIV_mix.ipynb'](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/External_IV/1.1_extIV_mix.ipynb): Baseline 2SLS model regressions, using gvc mix participation data.
+
+['1.2_extIV_fp.ipynb'](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/External_IV/1.2_extIV_fp.ipynb): Baseline 2SLS model regressions, using gvc forward participation data.
+
+['1.3_extIV_bp.ipynb'](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/External_IV/1.3_extIV_bp.ipynb): Baseline 2SLS model regressions, using gvc backward participation data.
+
+['bp_results.csv'](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/External_IV/bp_results.csv): results for Baseline model gvc backward participation data
+
+['fp_results.csv'](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/External_IV/fp_results.csv): results for Baseline model gvc backward participation data
+
+['mix_results.csv'](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/External_IV/mix_results.csv): results for Baseline model gvc backward participation data
+
+['fuel_results.csv'](https://github.com/wanranzhao/ECMA31320-project/blob/main/code/External_IV/fuel_results.csv): Concatenated and filtered results for just the fuel sector, but all three gvc measures
 
 
 #### [`Internal_IV`](https://github.com/wanranzhao/ECMA31320-project/tree/main/code/Internal_IV)
