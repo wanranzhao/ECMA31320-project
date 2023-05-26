@@ -27,7 +27,13 @@ Controls:
 
 ### [`data`](https://github.com/wanranzhao/ECMA31320-project/tree/main/data) folder
 
+#### [`GVC_data`](https://github.com/wanranzhao/ECMA31320-project/tree/main/data/GVC_data) folder
 
+[`0.1 data_cleaning_gvc.ipynb`](https://github.com/wanranzhao/ECMA31320-project/blob/main/data/GVC_data/0.1%20data_cleaning_gvc.ipynb): description to be written here
+
+#### [`stability`](https://github.com/wanranzhao/ECMA31320-project/tree/main/data/stability) folder
+
+#### [`combined_data`](https://github.com/wanranzhao/ECMA31320-project/tree/main/data/combined_data) folder
 
 ### [`code`](https://github.com/wanranzhao/ECMA31320-project/tree/main/code) folder
 
